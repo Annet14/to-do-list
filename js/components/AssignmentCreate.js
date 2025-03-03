@@ -38,7 +38,7 @@ export default {
 methods: {
 
    add() {
-     if (this.newAssignment !== '' || this.currentTag ){
+     if (this.newAssignment !== ''){
        this.$emit('add', this.newAssignment),
        this.newAssignment = ''
      }

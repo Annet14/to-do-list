@@ -53,7 +53,7 @@ export default {
                 name: newAssignmentName,
                 complete: false,
                 tag: this.currentTag,
-                id: this.assignments.length > 0 ? Math.max(...this.assignments.map(a => a.id)) + 1 : 1
+                id: this.assignments.length > 0 ? Math.max(...this.assignments.map(a => a.id))  : 1
             };
 
             this.assignments.push(newAssignment);

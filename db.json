@@ -26,13 +26,8 @@
        "complete": true,
        "id": 4,
        "tag": "programming"
-     },
-     {
-      "name": "Finish homework",
-      "complete": false,
-      "id": 3,
-      "tag": "math"
-    }
+     }
+     
    ]
  }
 
